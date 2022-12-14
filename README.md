@@ -8,7 +8,7 @@
 Breaking changes from his library:
 
 * property `value` => `modelValue`
-* event `input` => `updated:modelValue`
+* event `input` => `update:modelValue`
 * Now use slots with `<template>`
 
 ![Vue-Treeselect Screenshot](https://raw.githubusercontent.com/riophae/vue-treeselect/master/screenshot.png)
