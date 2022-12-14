@@ -875,6 +875,12 @@ export default {
       const hasChanged = quickDiff(nodeIdsFromValue, this.internalValue)
       if (hasChanged) this.fixSelectedNodeIds(nodeIdsFromValue)
     },
+    
+    modelValue() {
+      const nodeIdsFromValue = this.extractCheckedNodeIdsFromValue()
+      const hasChanged = quickDiff(nodeIdsFromValue, this.internalValue)
+      if (hasChanged) this.fixSelectedNodeIds(nodeIdsFromValue)
+    },
   },
 
   methods: {
