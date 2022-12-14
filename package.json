@@ -1,6 +1,6 @@
 {
-  "name": "@elricco/vue3-treeselect",
-  "version": "0.1.2",
+  "name": "@mdl85/vue3-treeselect",
+  "version": "0.2.1",
   "description": "Tree select hierarchical component for vue 3 (next)",
   "main": "dist/vue3-treeselect.common.js",
   "unpkg": "dist/vue3-treeselect.umd.js",
@@ -87,7 +87,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elricco/vue3-treeselect.git"
+    "url": "git+https://github.com/mdl85/vue3-treeselect.git"
   },
   "dependencies": {}
 }
