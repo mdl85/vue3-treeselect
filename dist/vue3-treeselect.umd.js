@@ -5332,6 +5332,7 @@ var instanceId = 0;
 
         this.initialize();
         this.rootOptionsStates.isLoaded = Array.isArray(this.options);
+        this.rootOptionsStates.isLoading = false;
       },
       deep: true,
       immediate: true
