@@ -855,6 +855,7 @@ export default {
         // Re-initialize options when the `options` prop has changed.
         this.initialize()
         this.rootOptionsStates.isLoaded = Array.isArray(this.options)
+        this.rootOptionsStates.isLoading = false;
       },
       deep: true,
       immediate: true,
